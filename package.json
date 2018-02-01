@@ -47,5 +47,8 @@
     "test": "gulp build && npm run test:e2e",
     "coveralls": "cat ./coverage/lcov/lcov.info | coveralls",
     "codacy": "cat ./coverage/lcov/lcov.info | codacy-coverage --verbose"
+  },
+  "dependencies": {
+    "bower": "1.8.2"
   }
 }
